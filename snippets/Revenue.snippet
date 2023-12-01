@@ -1,0 +1,11 @@
+#!name=Revenue
+#!desc=Revenue Universal Hack
+#!openUrl=
+#!author=Trionix
+#!homepage=https://github.com/WordlessEcho
+#!manual=https://github.com/VirgilClyne/iRingo/wiki/🌤天气
+#!icon=https://is4-ssl.mzstatic.com/image/thumb/Purple125/v4/c8/76/87/c8768792-b7ab-7de4-9c70-1888096b7ae9/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/108x0w.webp
+
+url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenue.json
+
+hostname = https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*)
