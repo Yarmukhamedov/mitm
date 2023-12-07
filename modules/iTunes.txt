@@ -1,9 +1,9 @@
 #!name = Buy iTunes
 #!desc = Subscription needed: Yes
-#!icon = https://i.imgur.com/NkODnZN.png
+#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apple.png
 
 [Script]
-http-response https://buy.itunes.apple.com/verifyReceipt script-path= https://www.dropbox.com/scl/fi/60eeek37cffiahms4jemd/BuyItunes.js?rlkey=94ntjz1td2ke0fez8ktome0u6&dl=1, requires-body=true, timeout=10, tag=BuyItunes
+http-response https://buy.itunes.apple.com/verifyReceipt script-path= https://www.dropbox.com/scl/fi/60eeek37cffiahms4jemd/BuyItunes.js?rlkey=94ntjz1td2ke0fez8ktome0u6&dl=1, requires-body=true, timeout=10, tag=Buy iTunes
 
 [Mitm]
 hostname = %APPEND%buy.itunes.apple.com
