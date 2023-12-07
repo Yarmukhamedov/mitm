@@ -9,7 +9,7 @@
 # ICON = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
 
 # SCRIPT
-url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
+https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
 
 # MITM
 hostname = https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*)
