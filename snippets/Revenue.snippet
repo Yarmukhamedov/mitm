@@ -1,10 +1,15 @@
-#!name = Revenuecat
-#!desc = Revenuecat Universal Hack
-#!openUrl = 
-#!author = Trionix
-#!homepage = 
-#!manual = 
-#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
+# NAME: Revenucat
+# AUTHOR: Yarmukhamedov
+# DESCRIPTION = This Snippet hacks all apps which using Revenuecat
+# UPDATED: 2023-12-07 18:56:03
+# REPO: 
+# OPENURL = 
+# HOMEPAGE = 
+# MANUAL = 
+# ICON = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
 
+# SCRIPT
 url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
+
+# MITM
 hostname = https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*)
