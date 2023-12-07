@@ -1,5 +1,5 @@
-#!name = Buy-iTunes 2
-#!desc = Subscription needed: ✖️
+#!name = Buy iTunes
+#!desc = Subscription needed: Yes
 #!icon = https://i.imgur.com/NkODnZN.png
 
 [Script]
