@@ -1,4 +1,4 @@
-#!name = Buy iTunes
+#!name = iTunes
 #!desc = Subscription needed: Yes
 #!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apple.png
 
