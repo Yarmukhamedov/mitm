@@ -1,10 +1,10 @@
 #!name = Yandex Navi
 #!desc = Need to be enabled: Always │ Subscription needed: No
-#!icon = https://i.imgur.com/iMtkuVs.jpg
+#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/YandexNavi.png
 #!date = 11.11.2023
 
 [Script]
-http-response (api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexNavi.js, requires-body=true, timeout=10, tag=Yandex Navi, img-url=https://i.imgur.com/iMtkuVs.jpg
+http-response (api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexNavi.js, requires-body=true, timeout=10, tag=Yandex Navi, img-url=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/YandexNavi.png
 
 [Mitm]
 hostname = %APPEND%api.plus.yandex.ru,api.music.yandex.net
