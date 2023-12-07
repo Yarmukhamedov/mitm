@@ -1,0 +1,9 @@
+#!name = RevenueCat hack
+#!desc = Subscription needed: ✖️
+#!icon = https://i.imgur.com/pbbhru2.png
+
+[Script]
+http-response https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*) script-path= https://www.dropbox.com/scl/fi/y81b1h4hsisi1pxlqb2d3/RevenueCat.js?rlkey=jn1hjpcygfkrq4a3z0khpa5mo&dl=1, requires-body=true, timeout=10, tag=RevenueCat
+
+[Mitm]
+hostname = %APPEND%api.revenuecat.com

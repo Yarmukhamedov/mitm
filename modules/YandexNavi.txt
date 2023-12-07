@@ -1,0 +1,10 @@
+#!name =Я.Навигатор hack
+#!desc = Need to be enabled: always  │  Subscription needed: ✖️
+#!icon = https://i.imgur.com/iMtkuVs.jpg
+#!date = 11.11.2023
+
+[Script]
+http-response (api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) script-path= https://www.dropbox.com/scl/fi/jjpi2szdcfzgcrus4fkeh/..js?rlkey=gkj8dls3fc8ul5bys7e839o8u&dl=1, requires-body=true, timeout=10, tag=Я.Навигатор, img-url=https://i.imgur.com/iMtkuVs.jpg
+
+[Mitm]
+hostname = %APPEND%api.plus.yandex.ru,api.music.yandex.net
