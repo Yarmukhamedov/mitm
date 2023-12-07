@@ -1,5 +1,5 @@
-#!name = RevenueCat hack
-#!desc = Subscription needed: ✖️
+#!name = RevenueCat Universal Hack
+#!desc = Subscription needed: No
 #!icon = https://i.imgur.com/pbbhru2.png
 
 [Script]
