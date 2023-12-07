@@ -1,4 +1,4 @@
-#!name = Revenuecat Universal Hack
+#!name = Revenuecat
 #!desc = Subscription needed: No
 #!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
 
