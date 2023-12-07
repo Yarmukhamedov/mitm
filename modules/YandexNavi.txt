@@ -1,5 +1,5 @@
-#!name =Я.Навигатор hack
-#!desc = Need to be enabled: always  │  Subscription needed: ✖️
+#!name = Yandex Navi
+#!desc = Need to be enabled: Always │ Subscription needed: No
 #!icon = https://i.imgur.com/iMtkuVs.jpg
 #!date = 11.11.2023
 
