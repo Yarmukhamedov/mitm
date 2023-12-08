@@ -1,14 +1,15 @@
-#!name = AppHud hack
+#!name = AppHud Universal
 #!desc = Subscription needed: No
 #!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apphud.png
-#!date = 14.10.2023
+#!date = 14 December 2023
 
 [Script]
-http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud, img-url= https://avatars.githubusercontent.com/u/51234142?s=200&v=4
-http-request https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js, requires-body=true, timeout=10, tag=AppHudPaywalls
+http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud
+
+http-request https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js, requires-body=true, timeout=10, tag=AppHud Paywalls
 
 [URL Rewrite]
 https://api.apphud.com/v1/subscriptions https://api.apphud.com/v1/customers header
 
 [Mitm]
-hostname = %APPEND%api.apphud.com
+hostname = api.apphud.com
