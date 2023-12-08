@@ -1,0 +1,15 @@
+# NAME: AppHud
+# AUTHOR: Yarmukhamedov
+# DESCRIPTION = This Snippet hacks all apps which using AppHud
+# UPDATED: 2023-12-08 10:14:36
+# REPO: https://github.com/Yarmukhamedov/mitm/tree/main
+# OPENURL = 
+# HOMEPAGE = 
+# MANUAL = 
+# ICON = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
+
+# SCRIPT
+https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
+
+# MITM
+hostname = https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*)
