@@ -1,6 +1,6 @@
 #!name =AppHud hack
 #!desc = Subscription needed: No
-#!icon = https://i.imgur.com/QXweG9G.png
+#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apphud.png
 #!date = 14.10.2023
 
 [Script]
