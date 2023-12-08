@@ -1,4 +1,4 @@
-#!name =AppHud hack
+#!name = AppHud hack
 #!desc = Subscription needed: No
 #!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apphud.png
 #!date = 14.10.2023
