@@ -1,0 +1,13 @@
+#!name = Finance - Expenses and Income
+#!desc = Subscription needed: No
+#!icon = https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/15/da/ec/15daece9-20ff-fae3-91e4-1904c4066168/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png
+#!date = 08.12.2023
+
+[Script]
+http-response https://api.apphud.com/v1/(subscriptions|customers)/* script-path=, requires-body=true, timeout=10, tag=AppHud, img-url= https://avatars.githubusercontent.com/u/51234142?s=200&v=4
+
+[URL Rewrite]
+https://api.apphud.com/v1/subscriptions https://api.apphud.com/v1/customers header
+
+[Mitm]
+hostname = %APPEND%api.apphud.com
