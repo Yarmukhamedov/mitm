@@ -7,8 +7,8 @@
 http-response https://api.apphud.com/v1/(subscriptions|customers)/* script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Finance.js, requires-body=true, timeout=10, tag=Finance - Expenses and Income, img-url= https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/15/da/ec/15daece9-20ff-fae3-91e4-1904c4066168/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png
 
 [URL Rewrite]
-https://api.apphud.com/v1/subscriptions header
-https://api.apphud.com/v1/customers header
+https://api.apphud.com/v1/subscriptions Subscriptions
+https://api.apphud.com/v1/customers Customers
 
 [Mitm]
 hostname = api.apphud.com
