@@ -5,7 +5,6 @@
 
 [Script]
 http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud
-
 http-request https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js, requires-body=true, timeout=10, tag=AppHud Paywalls
 
 [URL Rewrite]
