@@ -4,7 +4,7 @@
 #!date = 14.10.2023
 
 [Script]
-http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://www.dropbox.com/scl/fi/ngypkzei398rp3fipuw5z/AppHud.js?rlkey=zdph13autbg0r5812xunmszj9&dl=1, requires-body=true, timeout=10, tag=AppHud, img-url= https://avatars.githubusercontent.com/u/51234142?s=200&v=4
+http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud, img-url= https://avatars.githubusercontent.com/u/51234142?s=200&v=4
 http-request https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path= https://www.dropbox.com/scl/fi/tqe1q0gg86j53py8im8vq/AppHudPaywalls.js?rlkey=a2z888slw2685dwld9a9v36zg&dl=1, requires-body=true, timeout=10, tag=AppHudPaywalls
 
 [URL Rewrite]
