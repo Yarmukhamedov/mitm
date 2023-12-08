@@ -9,8 +9,7 @@
 # ICON = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apphud.png
 
 # SCRIPT
-https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud, img-url= https://avatars.githubusercontent.com/u/51234142?s=200&v=4
-https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js, requires-body=true, timeout=10, tag=AppHudPaywalls
-
+https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js
+https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js
 # MITM
 hostname = %APPEND%api.apphud.com
