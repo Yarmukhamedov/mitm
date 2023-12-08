@@ -1,7 +1,7 @@
 #!name = AppHud Universal
 #!desc = Subscription needed: No
 #!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Apphud.png
-#!date = 14 December 2023
+#!date = 7 December 2023
 
 [Script]
 http-response https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js, requires-body=true, timeout=10, tag=AppHud
