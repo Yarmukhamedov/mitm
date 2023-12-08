@@ -2,11 +2,6 @@
 # AUTHOR: Yarmukhamedov
 # DESCRIPTION = This Snippet hacks all apps which using Revenuecat
 # UPDATED: 2023-12-07 18:56:03
-# REPO: YMKHDV Repo
-# OPENURL = https://github.com/Yarmukhamedov/mitm/tree/main
-# HOMEPAGE = https://github.com/Yarmukhamedov/mitm/tree/main
-# MANUAL = 
-# ICON = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
 
 # SCRIPT
 https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
