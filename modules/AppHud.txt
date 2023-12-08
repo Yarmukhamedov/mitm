@@ -1,5 +1,5 @@
 #!name =AppHud hack
-#!desc = Subscription needed: ✖️
+#!desc = Subscription needed: No
 #!icon = https://i.imgur.com/QXweG9G.png
 #!date = 14.10.2023
 
