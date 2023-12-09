@@ -1,6 +1,6 @@
 #!name = Finance - Expenses and Income
 #!desc = Subscription needed: No
-#!icon = https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/15/da/ec/15daece9-20ff-fae3-91e4-1904c4066168/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.png
+#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Finance.png
 #!date = 8 December 2023
 
 [Script]
