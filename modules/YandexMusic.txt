@@ -1,5 +1,5 @@
 #!name = Yandex Music Plus Subscription
-#!desc = Need to be enabled: always
+#!desc = Need to be enabled: always (Does not work with Loon)
 #!icon = https://i.imgur.com/PzyaHTQ.jpg
 #!date = 11 September 2023
 
