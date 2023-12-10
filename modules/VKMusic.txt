@@ -1,7 +1,7 @@
-#!name =VK Music hack
-#!desc = Need to be enabled: always  │  Subscription needed: ✖️
+#!name = VK Music hack
+#!desc = Need to be enabled: always │ Subscription needed: No
 #!icon = https://i.imgur.com/FVMFhTp.jpg
-#!date = 16.10.2023
+#!date = 16 October 2023
 
 [Script]
 http-response https://api.moosic.io/(user/info|subscription/presentation/current_subscriptions_data) script-path= https://www.dropbox.com/scl/fi/d0y2l4oo4x4rfblvggoxo/VKMusic.js?rlkey=112lhrzajju44wioa7jdig1en&dl=1, requires-body=true, timeout=10, tag=VK Music, img-url=https://i.imgur.com/FVMFhTp.jpg
