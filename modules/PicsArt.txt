@@ -3,7 +3,7 @@
 #!date = 10 December 2023
 
 [Script]
-http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/shop\/subscription\/(validate|apple\/purchases) requires-body=1, max-size=0, script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/PicsArt.js
+http-response ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/shop\/subscription\/(validate|apple\/purchases) script-path=https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/PicsArt.js, requires-body=1, max-size=0
 
 [MITM]
 hostname = api.picsart.c*, api.meiease.c*
