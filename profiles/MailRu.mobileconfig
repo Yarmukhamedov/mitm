@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>This profile is blocking ads in mail.ru services such as VK video, VK music, mail by blocking ad.mail.ru and alt-ad.mail.ru domains.
+
+Этот профиль блокирует рекламу на сервисах mail.ru, таких как VK музыка, VK видео и почта путём блокировки доменов ad.mail.ru и alt-ad.mail.ru.</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>127.0.0.1</string>
+				</array>
+				<key>ServerName</key>
+				<string>localhost</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>ad.mail.ru</string>
+					<string>alt-ad.mail.ru</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Blocking (alt-)ad.mail.ru</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.491dcbd6-ffc0-41c5-9608-5a659e78ba62</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>afa50654-aa33-4da1-99a5-50521db962eb</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Blocking AD's in Mail.ru services</string>
+	<key>PayloadDisplayName</key>
+	<string>Blocking Mail.ru AD's</string>
+	<key>PayloadIdentifier</key>
+	<string>mail.ru.block.ads</string>
+	<key>PayloadOrganization</key>
+	<string>Yarmukhamedov</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>b8d49bbc-e32a-423b-9056-5cd599666b2b</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>0</integer>
+</dict>
+</plist>
