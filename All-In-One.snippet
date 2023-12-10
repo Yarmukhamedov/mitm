@@ -20,18 +20,13 @@ alt-ad.mail.ru url reject
 # AppHud Universal Script
 https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHud.js
 https://api.apphud.com/v1/customers(?!\/(push_token|attribution)) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/AppHudPaywalls.js
-
 # Revenuecat Universal Script
 https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Revenuecat.js
-
 # Buy iTunes Universal Script
 https://buy.itunes.apple.com/verifyReceipt url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/iTunes.js
-
 # Yandex Plus for Navigator
 (api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexNavi.js
-
 # Yandex Plus for Music
 https://api.music.yandex.net/account/status.* url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexMusic.js
-
 # MITM
 hostname = ad.mail.ru, alt-ad.mail.ru, api.apphud.com, https:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/(?!.*\/(offerings|attributes|adservices_attribution)$).*), buy.itunes.apple.com, api.music.yandex.net, api.plus.yandex.ru
