@@ -1,0 +1,10 @@
+# NAME: VK Music
+# AUTHOR: Yarmukhamedov
+# DESCRIPTION: This Snippet unlocks Music subscription in VK app
+# UPDATED: 2023-12-10 12:32:45
+
+#SCRIPT
+https://api.music.yandex.net/account/status.* url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexMusic.js
+
+#MITM
+hostname = api.music.yandex.net
