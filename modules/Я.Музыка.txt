@@ -1,0 +1,10 @@
+#!name = Yandex Music Plus Subscription
+#!desc = Need to be enabled: always
+#!icon = https://i.imgur.com/PzyaHTQ.jpg
+#!date = 11 September 2023
+
+[Script]
+http-response https://api.music.yandex.net/account/status.* script-path= https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexMusic.js, requires-body=true, timeout=10, tag=Yandex Plus Subscription
+
+[Mitm]
+hostname = %APPEND%api.music.yandex.net
