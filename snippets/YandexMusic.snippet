@@ -1,0 +1,10 @@
+# NAME: Yandex Plus for Music
+# AUTHOR: Yarmukhamedov
+# DESCRIPTION: This Snippet unlocks Plus subscription in Yandex Music app
+# UPDATED: 2023-12-10 12:29:23
+
+#SCRIPT
+(api.plus.yandex.ru/graphql|api.music.yandex.net/account/status) url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/YandexNavi.js
+
+#MITM
+hostname = api.music.yandex.net, api.plus.yandex.ru
