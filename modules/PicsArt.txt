@@ -1,6 +1,5 @@
 #!name = PicsArt
 #!desc = Subscription needed: No
-#!icon = https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Revenuecat.png
 #!date = 10 December 2023
 
 [Script]
