@@ -1,0 +1,10 @@
+# NAME: Adguard
+# AUTHOR: Yarmukhamedov
+# DESCRIPTION: This Snippet unlocks Premium subscription in Adguard app
+# UPDATED: 2023-12-16 16:11:23
+
+#SCRIPT
+https://mobile-api.adguard.org/api/2.0/ios_validate_receipt/ADG_EXT url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/scripts/Adguard.js
+
+#MITM
+hostname = mobile-api.adguard.org
