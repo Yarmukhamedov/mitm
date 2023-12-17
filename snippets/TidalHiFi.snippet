@@ -1,7 +1,11 @@
-[rewrite_local]
-# > TIDAL解锁HiFi Plus
+# NAME: Tidal Hi-Fi Plus
+# AUTHOR: Hausd0rff
+# DESCRIPTION: This Snippet unlocks Plus plan in Tidal app
+# UPDATED: 2023-12-17 12:04:23
+
+#SCRIPT
 ^https?:\/\/api\.tidal\.com\/v1\/users\/\d+\/subscription.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TIDALHiFiPlusCrack.js
 ^https?:\/\/api\.tidal\.com\/v1\/tracks/\d+\/playbackinfopostpaywall.+ url script-analyze-echo-response https://raw.githubusercontent.com/yqc007/QuantumultX/master/TidalHiFiPlusCrack.js
 
-[mitm] 
+#MITM
 hostname = api.tidal.com
