@@ -2,17 +2,6 @@
   "name": "YMKHDV Icon Gallery",
   "description": "Myself iconpack for Rewrite and tasks",
   "icons": [
-    {
-      "name": "Accountit",
-      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
-    },
-    {
-      "name": "YouTube",
-      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
-    },
-    {
-      "name": "Custom Icon",
-      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
-    }
+    "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
   ]
 }
