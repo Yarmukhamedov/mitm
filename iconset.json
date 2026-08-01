@@ -1,10 +1,1 @@
-{
-  "name": "YMKHDV Icon Gallery",
-  "description": "Myself iconpack for Rewrite and tasks",
-  "resources": [
-    {
-      "name": "Accountit",
-      "url": "https:\/\/raw.githubusercontent.com\/Yarmukhamedov\/mitm\/main\/images\/Accountit.png"
-    }
-  ]
-}
+{"name":"App Store", "description":"This is a sample.", "icons":[{"name":"Accountit", "url":"https:\/\/raw.githubusercontent.com\/Yarmukhamedov\/mitm\/main\/images\/Accountit.png."}]}
