@@ -1,18 +1,18 @@
 {
-  "name": "App Store",
-  "description": "App Store iconpack for Rewrite and tasks",
+  "name": "YMKHDV Icon Gallery",
+  "description": "Myself iconpack for Rewrite and tasks",
   "icons": [
     {
       "name": "Accountit",
-      "url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     },
     {
       "name": "YouTube",
-      "url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     },
     {
       "name": "Custom Icon",
-      "url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     }
   ]
 }
