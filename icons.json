@@ -4,15 +4,15 @@
   "icons": [
     {
       "name": "Accountit",
-      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     },
     {
       "name": "YouTube",
-      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     },
     {
       "name": "Custom Icon",
-      "img-url": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
+      "icon": "https://raw.githubusercontent.com/Yarmukhamedov/mitm/main/images/logos/Accountit.png"
     }
   ]
 }
