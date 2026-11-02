@@ -102,6 +102,6 @@ obj =
     "amount" : 1,
     "faceit_amount" : 2
   },
-  "balance" : 21
+  "balance" : 500
 }
 $done({body: JSON.stringify(obj)});
