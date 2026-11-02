@@ -17,7 +17,7 @@ obj =
   "faceit_level" : 6,
   "paid_coin_balance" : 0,
   "is_admin" : false,
-  "coin_balance" : 20,
+  "coin_balance" : 500,
   "account_id" : 1732839625,
   "steam_name" : "ghost",
   "telegram_send_videos" : false,
