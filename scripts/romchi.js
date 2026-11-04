@@ -29,7 +29,7 @@ obj =
   },
   "nextPaymentDate" : "2030-08-04",
   "tariff" : "PAID",
-  "active" : false,
+  "active" : true,
   "promoCode" : null,
   "paymentsGeoExempt" : false,
   "syncClientId" : "e5b0ddbb-1135-4988-89b2-9dde9417ca1b",
