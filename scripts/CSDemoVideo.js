@@ -4,7 +4,7 @@ obj =
   "detail" : {
     "message" : "Not enough coins to create this clip",
     "balance" : 500,
-    "required" : 26
+    "required" : 1
   }
 }
 $done({body: JSON.stringify(obj)});
