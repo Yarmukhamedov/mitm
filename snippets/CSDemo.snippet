@@ -1,0 +1,21 @@
+# NAME: CSDemo
+# AUTHOR: Yarmukhamedov
+# REPO: 
+# UPDATED: 9 November 2026
+
+# HOST: 0
+# HTTP-REQUEST-SCRIPT: 0
+# HTTP-RESPONSE-SCRIPT: 5
+# REDIRECT: 0
+# REJECT: 0
+# MITM: 1
+# TOTAL: 5
+
+# SCRIPT
+https://csdemo.uz/auth/me url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/refs/heads/main/scripts/CSDemo.js
+https://csdemo.uz/api/coins/balance url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/refs/heads/main/scripts/CSDemoBalance.js
+https://csdemo.uz/api/video url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/refs/heads/main/scripts/CSDemoVideo.js
+https://csdemo.uz/api/video/montage url script-response-body https://raw.githubusercontent.com/Yarmukhamedov/mitm/refs/heads/main/scripts/CSDemoMontage.js
+
+# MITM
+hostname = csdemo.uz
